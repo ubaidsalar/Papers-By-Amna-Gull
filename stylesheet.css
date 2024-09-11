@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fullScreen {
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 10px 10px 10px;
+}
+
+.headContent {
+    height: 20vh;
+    border: 3px solid lightgray;
+    border-radius: 10px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.headContent #img01 {
+    height: 20vh;
+    width: 25vw;
+    padding: 13px;
+}
+
+.headContent .nameAndAddress {
+    height: 20vh;
+    width: 70vw;
+    padding: 13px;
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#phoneAndEmail {
+    font-size: 18px;
+}
